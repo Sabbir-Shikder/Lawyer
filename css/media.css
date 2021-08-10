@@ -1,0 +1,667 @@
+@media (min-width: 1400px) and (max-width: 1899px) {
+  /* what we are part  */
+  .wwr {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .wwr p {
+    font-size: 19px;
+  }
+  .wwr_container .my-5 {
+    margin-top: 0 !important;
+  }
+  /* what we do part  */
+  .wwd .heading {
+    padding: 20px 0;
+  }
+  .wwd {
+    padding: 20px 0;
+    background-size: 1130px;
+  }
+  /* attorney part  */
+  .attorney_section {
+    padding: 70px 0;
+  }
+  .attorney_section p {
+    font-size: 18px;
+  }
+  /* languages part  */
+  .languages {
+    margin-bottom: 50px;
+  }
+  .languages .heading {
+    padding: 10px 0 !important;
+  }
+  .languages p {
+    margin-top: 18px;
+    font-size: 18px;
+  }
+  /* contact  */
+  .contact .heading {
+    padding: 10px 0 !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  /* navbar part  */
+  .navbar-light .navbar-nav .nav-item {
+    padding: 0px 10px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+  }
+  /* what we are part  */
+  .wwr {
+    padding: 0 !important;
+  }
+  .wwr p {
+    font-size: 19px;
+  }
+  .wwr_container img {
+    margin-top: 10%;
+  }
+  .wwr_container {
+    margin-bottom: 0 !important;
+  }
+
+  /* what we do part  */
+  .wwd {
+    padding: 20px 0;
+    background-size: 1000px;
+  }
+  .wwd .heading {
+    padding: 20px 0;
+  }
+
+  /* attorney part  */
+  .attorney_section {
+    padding: 70px 0;
+  }
+  .attorney_section p {
+    font-size: 18px;
+  }
+  /* languages part  */
+  .languages {
+    margin-bottom: 50px;
+  }
+  .languages .heading {
+    padding: 10px 0 !important;
+    padding-top: 40px !important ;
+  }
+  .languages p {
+    margin-top: 18px;
+    font-size: 18px;
+  }
+  /* contact  */
+  .contact .heading {
+    padding: 10px 0 !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .heading h1 {
+    font-size: 30px;
+  }
+  /* navbar part  */
+  .navbar-light .navbar-toggler {
+    border: 2px solid rgb(134, 134, 134);
+  }
+  .navbar-light .navbar-brand img {
+    max-width: 100%;
+    margin-top: 5px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    display: inline-block;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    margin-bottom: 10px !important;
+  }
+  .text-end {
+    text-align: center!important;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none !important;
+  }
+  /* banner part  */
+  .banner h1 {
+    font-size: 60px !important;
+  }
+  /* who we are part  */
+  .wwr {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .wwr_container {
+    margin-top: 60px;
+    margin-bottom: 0px;
+  }
+  .wwr_container .my-5 {
+    margin-top: 0 !important;
+  }
+  .wwr h1 {
+    font-size: 30px;
+  }
+  /* what we do part  */
+  .wwd {
+    padding: 20px 0;
+    background-size: 900px;
+  }
+  .wwd .heading {
+    padding: 20px 0;
+  }
+  .text h1 {
+    font-size: 30px;
+  }
+  /* our attorneys part  */
+  .attorney_section {
+    padding: 80px 0;
+  }
+  .attorney_section h1 {
+    font-size: 30px;
+  }
+  /* languages part  */
+  .languages {
+    margin-bottom: 50px;
+  }
+  .languages .heading {
+    padding: 10px 0 !important;
+    padding-top: 40px !important;
+  }
+  .languages h2 {
+    font-size: 20px;
+  }
+  .languages p {
+    font-size: 14px;
+  }
+  /* contact part  */
+  .contact .heading {
+    padding: 10px 0 !important;
+  }
+
+  /* footer part  */
+  footer h4 {
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* navbar part  */
+  .navbar-light .navbar-toggler {
+    border: 2px solid rgb(134, 134, 134);
+  }
+  .navbar-light .navbar-brand img {
+    max-width: 80%;
+    margin-top: 5px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    display: inline-block;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    margin-bottom: 10px !important;
+  }
+  /* banner part  */
+  .heading h1 {
+    font-size: 30px;
+  }
+  .hg {
+    min-height: 70vh !important;
+  }
+  .banner {
+    min-height: 70vh !important;
+  }
+  .banner h1 {
+    font-size: 45px !important;
+  }
+  /* who we are part  */
+  .wwr {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .wwr_container img {
+    margin-top: 25%;
+  }
+  .wwr_container {
+    margin: 0;
+  }
+  .wwr p {
+    font-size: 15px !important;
+  }
+  .wwr h1 {
+    font-size: 30px;
+  }
+  /* what we do part  */
+  .wwd {
+    padding: 20px 0;
+    background-size: 700px;
+  }
+  .wwd .heading {
+    padding: 20px 0;
+  }
+  .text h1 {
+    font-size: 20px;
+  }
+  /* our attorneys part  */
+  .attorney_section {
+    padding: 80px 0;
+  }
+  .attorney_text h2 {
+    font-size: 20px;
+  }
+  .attorney_section h1 {
+    font-size: 30px;
+  }
+  /* languages part  */
+  .languages {
+    margin-bottom: 50px;
+  }
+  /* contact part  */
+  .contact {
+    padding: 20px 0 60px 0 !important;
+    margin-top: 0 !important;
+  }
+  .contact .heading {
+    padding-bottom: 0 !important;
+  }
+  /* footer part  */
+  footer i {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  footer h4 {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* banner part  */
+  .navbar-light .navbar-toggler {
+    border: 2px solid rgb(134, 134, 134);
+  }
+  .navbar-light .navbar-brand img {
+    max-width: 80%;
+    margin-top: 5px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    display: inline-block;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    margin-bottom: 10px !important;
+  }
+  .hg {
+    min-height: 70vh !important;
+  }
+  .banner {
+    min-height: 70vh !important;
+  }
+  .banner h1 {
+    font-size: 50px !important;
+  }
+  /* what we are part  */
+  .wwr {
+    padding: 0 !important;
+  }
+  .wwr_container .my-5 {
+    margin-top: 0 !important ;
+  }
+  .wwr_container {
+    margin: 0 !important;
+  }
+  .wwr h1 {
+    font-size: 30px;
+  }
+  /* what we do part  */
+  .wwd {
+    padding: 40px 0;
+  }
+  .heading {
+    padding: 0px !important;
+  }
+  .wwd .images {
+    text-align: center;
+  }
+  .wwd .images .img-fluid {
+    width: 75% !important;
+  }
+  .images::before {
+    width: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .images::after {
+    width: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* our attorney part  */
+  .attorney_section {
+    padding: 0 !important;
+    padding-bottom: 50px !important;
+  }
+  .attorney_section span {
+    margin-top: 10% !important;
+  }
+  .attorney_section p {
+    margin-bottom: 20px;
+  }
+  .attorney_section h1 {
+    margin-bottom: 20px;
+  }
+  .attorney_image::before {
+    width: 75.5%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .attorney_section .attorney_image {
+    text-align: center;
+  }
+  .attorney_section .attorney_image .img-fluid {
+    width: 75% !important;
+  }
+  .attorney_text {
+    left: 23%;
+    transform: translate(-15%, -75%);
+    text-align: left !important;
+  }
+  .attorney_mobile_heading {
+    text-align: center;
+  }
+  /* language part  */
+  .languages .py-5 {
+    padding-bottom: 0 !important;
+  }
+  .languages {
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  .languages h2 {
+    font-size: 20px;
+  }
+  .languages p {
+    font-size: 16px;
+  }
+
+  .languages a {
+    font-size: 17px;
+  }
+  /* contact part  */
+  /* footer part  */
+  footer h4 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  footer i {
+    font-size: 25px;
+    margin-left: 15px;
+  }
+  footer .text-end {
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 575px) {
+  /* navbar part  */
+  .navbar-light .navbar-nav .nav-link {
+    display: inline-block;
+  }
+  .navbar-light .navbar-toggler {
+    border: 2px solid rgb(134, 134, 134);
+  }
+  .navbar-light .navbar-nav .nav-link {
+    margin-bottom: 15px !important;
+  }
+  .navbar-light .navbar-brand img {
+    max-width: 80%;
+    margin-top: 5px;
+  }
+  /* banner part  */
+  .hg {
+    min-height: 70vh !important;
+  }
+  .banner {
+    min-height: 70vh !important;
+  }
+  .banner h1 {
+    font-size: 40px !important;
+  }
+  /* what we are part  */
+  .wwr {
+    padding: 0 !important;
+  }
+  .wwr_container .my-5 {
+    margin-top: 0 !important ;
+  }
+  .wwr_container {
+    margin: 0 !important;
+  }
+  .wwr h1 {
+    font-size: 20px;
+  }
+  /* what we do part  */
+  .wwd {
+    padding: 40px 0;
+  }
+  .heading {
+    padding: 0px !important;
+  }
+  .wwd .images {
+    text-align: center;
+  }
+  .wwd .images .img-fluid {
+    width: 75% !important;
+  }
+  .images::before {
+    width: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .images::after {
+    width: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* attorneey  part  */
+  .attorney_section {
+    padding: 0 !important;
+    padding-bottom: 50px !important;
+  }
+  .attorney_section span {
+    margin-top: 10% !important;
+  }
+  .attorney_section p {
+    margin-bottom: 20px;
+  }
+  .attorney_section h1 {
+    margin-bottom: 20px;
+  }
+  .attorney_image::before {
+    width: 75.5%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .attorney_section .attorney_image {
+    text-align: center;
+  }
+  .attorney_section .attorney_image .img-fluid {
+    width: 75% !important;
+  }
+  .attorney_text {
+    left: 23%;
+    transform: translate(-15%, -75%);
+    text-align: left !important;
+  }
+  .attorney_mobile_heading {
+    text-align: center;
+  }
+  /* language part  */
+  .languages {
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+  .languages h2 {
+    font-size: 20px;
+  }
+  .languages p {
+    font-size: 16px;
+  }
+
+  .languages a {
+    font-size: 17px;
+  }
+  .languages .py-5 {
+    padding-bottom: 0 !important;
+  }
+
+  /* contact part  */
+  .contact .heading h1 {
+    margin-bottom: 40px;
+  }
+  .contact form .form-control {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .contact {
+    padding-bottom: 60px !important;
+  }
+
+  /* footer part  */
+  footer h4 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  footer i {
+    font-size: 25px;
+    margin-left: 15px;
+  }
+  footer .text-end {
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 375px) {
+  /* navbar staring */
+  .navbar-light .navbar-brand {
+    margin-bottom: 0px !important;
+  }
+  .navbar-light .navbar-brand img {
+    max-width: 80%;
+  }
+  .navbar-light .navbar-toggler {
+    border: 2px solid rgb(134, 134, 134);
+  }
+  .navbar-light .navbar-nav .nav-link {
+    margin-bottom: 15px !important;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    display: inline-block;
+  }
+  /* banner part starting */
+  .hg {
+    min-height: 70vh !important;
+  }
+  .banner {
+    min-height: 70vh !important;
+  }
+  .banner h1 {
+    font-size: 40px !important;
+  }
+  /* what_we_are starting */
+  .wwr {
+    padding: 0 !important;
+  }
+  .wwr_container .my-5 {
+    margin-top: 0 !important ;
+  }
+  .wwr p {
+    font-size: 16px;
+  }
+  .wwd {
+    padding-bottom: 10px;
+  }
+  /* what_we_do starting */
+  .heading {
+    padding: 0px !important;
+  }
+  /* attorney part starting  */
+  .attorney_section {
+    padding: 0 !important;
+    padding-bottom: 50px !important;
+  }
+  .attorney_section span {
+    margin-top: 10% !important;
+  }
+  .attorney_section p {
+    margin-bottom: 20px;
+  }
+  .attorney_section h1 {
+    margin-bottom: 20px;
+  }
+  /* languages part starting  */
+  .languages {
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+  .languages h2 {
+    font-size: 20px;
+  }
+  .languages p {
+    font-size: 16px;
+  }
+
+  .languages a {
+    font-size: 17px;
+  }
+  /* contact us part staring  */
+  .contact {
+    margin: 0 !important;
+    padding-bottom: 50px !important;
+  }
+  /* footer part staring */
+  footer h4 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  footer i {
+    font-size: 25px;
+    margin-left: 15px;
+  }
+  footer .text-end {
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 0) and (max-width: 320px) {
+  /* navbar staring */
+  .navbar-light .navbar-brand img {
+    max-width: 70%;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    margin-bottom: 5px !important;
+  }
+  .navbar-toggler {
+    padding: 4px 10px;
+  }
+  .navbar-toggler-icon {
+    width: 25px !important;
+  }
+  /* banner part starting */
+  .hg {
+    min-height: 55vh !important;
+  }
+  .banner {
+    min-height: 55vh !important;
+  }
+  .banner h1 {
+    font-size: 40px !important;
+  }
+  /* what_we_do starting */
+  .wwd {
+    padding-top: 50px !important;
+  }
+}
