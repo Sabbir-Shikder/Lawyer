@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif; */
 
@@ -27,6 +34,8 @@ font-family: 'Open Sans', sans-serif; */
   height: 4px;
   width: 0%;
   background-color: #f15527;
+  -webkit-transition: 0.4s all ease-in-out;
+  -o-transition: 0.4s all ease-in-out;
   transition: 0.4s all ease-in-out;
   display: block;
 }
@@ -41,6 +50,8 @@ font-family: 'Open Sans', sans-serif; */
   height: 4px;
   width: 0%;
   background-color: #f15527;
+  -webkit-transition: 0.4s all ease-in-out;
+  -o-transition: 0.4s all ease-in-out;
   transition: 0.4s all ease-in-out;
   display: block;
 }
@@ -73,7 +84,9 @@ svg {
   font-weight: bold;
 }
 .hg {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   min-height: 100vh;
 }
 .icon {
@@ -82,9 +95,21 @@ svg {
   top: 80%;
   left: 50%;
   color: white;
-  transform: translateX(-50%);
-  animation: updown 1s linear infinite;
-  animation-direction: alternate;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-animation: updown 1s linear infinite;
+          animation: updown 1s linear infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+@-webkit-keyframes updown {
+  0% {
+    top: 80%;
+  }
+  100% {
+    top: 85%;
+  }
 }
 @keyframes updown {
   0% {
@@ -107,6 +132,8 @@ svg {
   margin-bottom: 5px;
   display: inline-block;
   background-color: #f05428;
+  -webkit-transition: 0.5s all ease-in-out;
+  -o-transition: 0.5s all ease-in-out;
   transition: 0.5s all ease-in-out;
 }
 .wwr:hover span {
@@ -142,6 +169,8 @@ svg {
   display: block;
   margin-bottom: 5px;
   background-color: #f05428;
+  -webkit-transition: 0.5s all ease-in-out;
+  -o-transition: 0.5s all ease-in-out;
   transition: 0.5s all ease-in-out;
   margin: auto;
 }
@@ -168,6 +197,8 @@ svg {
   height: 0;
   background-color: #28377e;
   opacity: 0.3;
+  -webkit-transition: 0.4s all ease-in-out;
+  -o-transition: 0.4s all ease-in-out;
   transition: 0.4s all ease-in-out;
 }
 .images:hover::after {
@@ -180,13 +211,16 @@ svg {
   left: 0;
   width: 100%;
   height: 0;
+  -webkit-transition: 0.5s all ease-in-out;
+  -o-transition: 0.5s all ease-in-out;
   transition: 0.5s all ease-in-out;
-  background: -moz-linear-gradient(
-    top,
-    rgba(125, 185, 232, 0) 0%,
-    rgba(40, 55, 126, 1) 100%
+  background: -webkit-gradient(
+    linear,
+    left top, left bottom,
+    from(rgba(125, 185, 232, 0)),
+    to(rgba(40, 55, 126, 1))
   );
-  background: -webkit-linear-gradient(
+  background: -o-linear-gradient(
     top,
     rgba(125, 185, 232, 0) 0%,
     rgba(40, 55, 126, 1) 100%
@@ -205,8 +239,12 @@ svg {
   position: absolute;
   top: 55%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   opacity: 0;
+  -webkit-transition: 0.5s all ease-in-out;
+  -o-transition: 0.5s all ease-in-out;
   transition: 0.5s all ease-in-out;
   text-align: center;
   z-index: 999;
@@ -228,7 +266,11 @@ svg {
   position: absolute;
   top: 80%;
   left: 45%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: 0.5s all ease-in-out;
+  -o-transition: 0.5s all ease-in-out;
   transition: 0.5s all ease-in-out;
   opacity: 0;
   z-index: 999;
@@ -254,6 +296,8 @@ svg {
   display: inline-block;
   background-color: #f05428;
   margin-bottom: 6px;
+  -webkit-transition: 0.5s all ease-in-out;
+  -o-transition: 0.5s all ease-in-out;
   transition: 0.5s all ease-in-out;
   margin-top: 30%;
 }
@@ -291,14 +335,17 @@ svg {
   left: 0;
   width: 100%;
   height: 0;
+  -webkit-transition: 0.5s all ease-in-out;
+  -o-transition: 0.5s all ease-in-out;
   transition: 0.5s all ease-in-out;
-  background: -moz-linear-gradient(
-    top,
-    rgba(40, 55, 126, 0) 0%,
-    rgba(40, 55, 126, 0) 51%,
-    rgba(40, 55, 126, 1) 100%
+  background: -webkit-gradient(
+    linear,
+    left top, left bottom,
+    from(rgba(40, 55, 126, 0)),
+    color-stop(51%, rgba(40, 55, 126, 0)),
+    to(rgba(40, 55, 126, 1))
   );
-  background: -webkit-linear-gradient(
+  background: -o-linear-gradient(
     top,
     rgba(40, 55, 126, 0) 0%,
     rgba(40, 55, 126, 0) 51%,
@@ -319,8 +366,12 @@ svg {
   position: absolute;
   top: 90%;
   left: 10%;
-  transform: translateY(-75%);
+  -webkit-transform: translateY(-75%);
+      -ms-transform: translateY(-75%);
+          transform: translateY(-75%);
   opacity: 0;
+  -webkit-transition: 0.5s all ease-in-out;
+  -o-transition: 0.5s all ease-in-out;
   transition: 0.5s all ease-in-out;
 }
 .attorney_image:hover .attorney_text {
@@ -388,12 +439,29 @@ input {
   padding-left: 0 !important;
   color: white !important;
 }
+input::-webkit-input-placeholder {
+  color: white !important;
+  font-weight: 500;
+}
+input::-moz-placeholder {
+  color: white !important;
+  font-weight: 500;
+}
+input:-ms-input-placeholder {
+  color: white !important;
+  font-weight: 500;
+}
+input::-ms-input-placeholder {
+  color: white !important;
+  font-weight: 500;
+}
 input::placeholder {
   color: white !important;
   font-weight: 500;
 }
 input:focus {
-  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 input[type="submit"] {
   color: #ffffff;
@@ -403,6 +471,8 @@ input[type="submit"] {
   border: 2px solid #f15527 !important;
   padding: 10px 50px !important;
   background: #f15527 !important;
+  -webkit-transition: 0.5s all ease-in-out;
+  -o-transition: 0.5s all ease-in-out;
   transition: 0.5s all ease-in-out;
 }
 input[type="submit"]:hover {
@@ -417,12 +487,29 @@ textarea {
   padding-left: 0 !important;
   color: white !important;
 }
+textarea::-webkit-input-placeholder {
+  color: white !important;
+  font-weight: 500;
+}
+textarea::-moz-placeholder {
+  color: white !important;
+  font-weight: 500;
+}
+textarea:-ms-input-placeholder {
+  color: white !important;
+  font-weight: 500;
+}
+textarea::-ms-input-placeholder {
+  color: white !important;
+  font-weight: 500;
+}
 textarea::placeholder {
   color: white !important;
   font-weight: 500;
 }
 textarea:focus {
-  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 /* footer part staring  */
