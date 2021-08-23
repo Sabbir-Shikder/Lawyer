@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 @media (min-width: 1400px) and (max-width: 1899px) {
   /* what we are part  */
   .wwr {
@@ -120,7 +127,8 @@
     text-align: center!important;
   }
   .navbar-toggler:focus{
-    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
   }
   /* banner part  */
   .banner h1 {
@@ -325,12 +333,16 @@
   .images::before {
     width: 75%;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
   .images::after {
     width: 75%;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
 
   /* our attorney part  */
@@ -350,7 +362,9 @@
   .attorney_image::before {
     width: 75.5%;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
   .attorney_section .attorney_image {
     text-align: center;
@@ -360,7 +374,9 @@
   }
   .attorney_text {
     left: 23%;
-    transform: translate(-15%, -75%);
+    -webkit-transform: translate(-15%, -75%);
+        -ms-transform: translate(-15%, -75%);
+            transform: translate(-15%, -75%);
     text-align: left !important;
   }
   .attorney_mobile_heading {
@@ -454,12 +470,16 @@
   .images::before {
     width: 75%;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
   .images::after {
     width: 75%;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
 
   /* attorneey  part  */
@@ -479,7 +499,9 @@
   .attorney_image::before {
     width: 75.5%;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
   .attorney_section .attorney_image {
     text-align: center;
@@ -489,7 +511,9 @@
   }
   .attorney_text {
     left: 23%;
-    transform: translate(-15%, -75%);
+    -webkit-transform: translate(-15%, -75%);
+        -ms-transform: translate(-15%, -75%);
+            transform: translate(-15%, -75%);
     text-align: left !important;
   }
   .attorney_mobile_heading {
